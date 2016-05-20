@@ -33,7 +33,7 @@ if __name__ == '__main__':
     prefix = sys.argv[8]
 
     #创建文件夹
-    outputDirName = prefix + 'output_' + getCurTime()
+    outputDirName = prefix 
     if not os.path.exists(outputDirName):
         os.makedirs(outputDirName)
 

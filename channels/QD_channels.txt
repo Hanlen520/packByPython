@@ -1,9 +1,6 @@
 QD_xiaomi
 QD_yyb
-QD_zhy
-QD_sanxing
-QD_huawei
-QD_baidu
+
 
 
 
