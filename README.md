@@ -18,10 +18,13 @@ channels放渠道列表
 
 ## 3. 使用方法： ##
 
-- 1. 前提：有python环境
+- 1. 前提：有python环境(最好是ipython有交互)
 - 2. 提供一个特定渠道号的包例如我的是QD_test_placeholder渠道，到时候会替换该渠道
 - 2. 在runpython中设置你的key的 storeFile 、storePassword 、keyAlias、keyPassword ，特定渠道、渠道列表文件夹、输出包名前缀
-- 3. 执行runpython 
+- 3.需要一个无签名的apk（vivame.apk） 
+- 4.修改runpython.bat中输出名称（最后一个参数），包括zipalign的参数必须与输出包名一致
+- 5.执行runpython.bat。生成对齐的文件在zipaligned文件夹下
+
 
 
 
